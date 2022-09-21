@@ -4,11 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnMissatge"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Prueba222" />
+        android:text="@string/btn1Text"
+        android:textColor="@color/black"
+        android:background="@color/verdesito"
+        app:backgroundTint="@color/verdesito"
+        />
+
+    <TextView
+        android:id="@+id/lblCompte"
+        android:layout_width="match_parent"
+        android:layout_height="619dp"
+        android:background="@color/purple_500"
+        android:gravity="center_vertical"
+        android:text="@string/numero"
+        android:textAlignment="center"
+        android:textColor="@color/rositi"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnComptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2Text"
+        android:textColor="@color/black"
+        android:background="@color/verdesito"
+        app:backgroundTint="@color/verdesito"
+        />
 
 </LinearLayout>
