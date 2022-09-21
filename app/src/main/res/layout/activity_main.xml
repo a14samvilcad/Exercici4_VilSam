@@ -15,6 +15,7 @@
         android:textColor="@color/black"
         android:background="@color/verdesito"
         app:backgroundTint="@color/verdesito"
+        android:onClick="showToast"
         />
 
     <TextView
@@ -38,6 +39,7 @@
         android:textColor="@color/black"
         android:background="@color/verdesito"
         app:backgroundTint="@color/verdesito"
+        android:onClick="countUp"
         />
 
 </LinearLayout>

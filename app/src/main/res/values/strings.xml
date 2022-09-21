@@ -3,4 +3,5 @@
     <string name="numero">0</string>
     <string name="btn1Text">TOAST</string>
     <string name="btn2Text">COMPTAR</string>
+    <string name="toast_message">Tostao!</string>
 </resources>
